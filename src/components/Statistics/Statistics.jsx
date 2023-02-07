@@ -7,7 +7,7 @@ const randomColor = () =>
 
 export function Statistics({ title, stats }) {
   return (
-    <section class={s.statistics}>
+    <section className={s.statistics}>
       {title && <h2 className={s.title}>{title}</h2>}
       <ul className={s.list}>
         {stats.map(({ id, label, percentage }) => (
