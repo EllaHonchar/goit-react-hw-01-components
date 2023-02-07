@@ -1,0 +1,35 @@
+.statistics {
+  margin-top: 15px;
+  background-color: beige;
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: rgb(45, 43, 43);
+}
+
+.list {
+  padding: 0;
+  display: flex;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+}
+.label {
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+.percentage {
+  text-align: center;
+  padding-top: 5px;
+  color: aliceblue;
+}

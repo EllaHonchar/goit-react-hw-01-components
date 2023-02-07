@@ -1,0 +1,20 @@
+.transaction {
+  background-color: beige;
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+.header {
+  background-color: bisque;
+  height: 10vh;
+}
+.string {
+  padding: 5px;
+  text-align: center;
+}
+.child:nth-child(odd) {
+  background-color: #eddbc7;
+}
+.child:nth-child(even) {
+  background-color: #f8ead8;
+}

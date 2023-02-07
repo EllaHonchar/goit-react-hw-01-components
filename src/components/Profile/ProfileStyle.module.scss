@@ -1,0 +1,48 @@
+.profile {
+  background-color: beige;
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.name {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.tag {
+  font-size: 24px;
+  color: blue;
+}
+.location {
+  font-weight: bolder;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-color: gray;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+.label {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.quantity {
+  font-size: 14px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
